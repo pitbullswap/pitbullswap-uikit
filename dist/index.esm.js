@@ -2508,7 +2508,7 @@ var WalletCard = function (_a) {
             window.localStorage.setItem(localStorageKey, "1");
             onDismiss();
         }, style: { justifyContent: "space-between" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
-        React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, title),
+        React.createElement(Text, { bold: true, color: "white", mr: "16px" }, title),
         React.createElement(Icon, { width: "32px" })));
 };
 
@@ -2794,6 +2794,7 @@ var baseColors = {
     secondary: "#ff6500",
     success: "#31D0AA",
     warning: "#FFB237",
+    white: "#FFFFFF",
 };
 var brandColors = {
     binance: "#F0B90B",
@@ -2836,7 +2837,7 @@ var light$1 = (_a$2 = {},
         borderColorHover: lightColors.primaryBright,
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: "#FFFFFF",
     },
     _a$2[TERTIARY] = {
         background: lightColors.text,
@@ -2846,7 +2847,7 @@ var light$1 = (_a$2 = {},
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: "#FFFFFF",
     },
     _a$2[TEXT] = {
         background: "transparent",
@@ -2856,7 +2857,7 @@ var light$1 = (_a$2 = {},
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: "#FFFFFF",
     },
     _a$2[DANGER] = {
         background: lightColors.failure,
