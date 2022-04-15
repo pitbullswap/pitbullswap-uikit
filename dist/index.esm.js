@@ -1860,7 +1860,7 @@ var Icon$O = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 174 54" }, props),
-        React.createElement("image", { width: "174", href: isDark ? '/images/pitbull/LogoTextNewDark.png' : '/images/pitbull/LogoTextNewWhite.png' })));
+        React.createElement("image", { width: "174", href: isDark ? '/images/pitbull/LogoTextNewWhite.png' : '/images/pitbull/LogoTextNewWhite.png' })));
 };
 
 var Icon$P = function (props) {
@@ -2801,9 +2801,12 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#393E46", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#191326", input: "#a16160", tertiary: "#FD7014", text: "#EEEEEE", textDisabled: "#BDC2C4", textSubtle: "#EEEEEE", borderColor: "#E9EAEB", card: "#222831", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#a16160", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#393E46", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#191326", input: "#a16160", tertiary: "#FD7014", text: "#EEEEEE", textDisabled: "#BDC2C4", textSubtle: "#EEEEEE", borderColor: "#E9EAEB", card: "#222831", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
+
+ 
 
 var light = {
     background: lightColors.card,
