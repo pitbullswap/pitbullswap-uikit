@@ -2147,7 +2147,7 @@ var socials = [
     {
         label: "Gitbook",
         icon: "GitbookIcon",
-        href: "https://www.gitbook.com/",
+        href: "https://docs.pitbullswap.org/",
     },
     {
         label: "Github",
@@ -2585,7 +2585,7 @@ var UserBlock = function (_a) {
             onPresentAccountModal();
         } }, accountEllipsis)) : (React.createElement(Button, { size: "sm", onClick: function () {
             onPresentConnectModal();
-        } }, "Connect"))));
+        } }, "Connect Wallet"))));
 };
 
 var Icon$14 = function (props) {
@@ -2840,7 +2840,7 @@ var light$1 = (_a$2 = {},
         color: "#FFFFFF",
     },
     _a$2[TERTIARY] = {
-        background: lightColors.text,
+        background: "#7a2727",
         backgroundActive: lightColors.tertiary,
         backgroundHover: lightColors.background,
         border: 0,
